@@ -6,9 +6,16 @@ import java.util.List;
 public class Category extends MenuComponent {
 
 	private List<MenuComponent> children;
+	private String description;
+
+	public Category(String name, String desciption) {
+		super(name);
+		this.children = new ArrayList<>();
+		this.description = desciption;
+	}
 
 	public Category(String name) {
-		super(name);
+		this(name, "");
 		this.children = new ArrayList<>();
 	}
 
@@ -37,6 +44,32 @@ public class Category extends MenuComponent {
 
 	public int getItemCount() {
 		return children.stream().mapToInt(MenuComponent::getItemCount).sum();
+	}
+
+	@Override
+	public String getDescription() {
+		return description;
+	}
+
+	/**
+	 * to be deleted
+	 * 
+	 * @param itemName
+	 * @return
+	 */
+	public MenuComponent find(String itemName) {
+		for (MenuComponent child : children) {
+			if (child.getName().equalsIgnoreCase(itemName)) {
+				return child;
+			}
+			if (child instanceof Category) {
+				MenuComponent found = ((Category) child).find(itemName);
+				if (found != null) {
+					return found;
+				}
+			}
+		}
+		return null; // not found in this branch
 	}
 
 }

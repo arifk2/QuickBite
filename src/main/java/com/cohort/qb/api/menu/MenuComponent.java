@@ -4,7 +4,7 @@ import java.util.List;
 
 public abstract class MenuComponent {
 
-	protected String name;
+	protected String name;	
 
 	protected MenuComponent(String name) {
 		this.name = name;
@@ -19,6 +19,8 @@ public abstract class MenuComponent {
 	public abstract int getItemCount();
 
 	public abstract void print(int depth);
+
+	public abstract String getDescription();
 
 	public void add(MenuComponent component) {
 		throw new UnsupportedOperationException(name + " is a leaf item - cannot add children to it");
