@@ -1,0 +1,49 @@
++ Menu
+  + Starters
+    + Veg Starters
+      - Paneer Tikka (Rs.220.0)
+      - Veg Manchurian (Rs.180.0)
+  + Main Course
+    + Veg Main Course
+      - Paneer Butter Masala (Rs.260.0)
+      - Dal Makhani (Rs.210.0)
+      - Veg Biryani (Rs.240.0)
+    + Non-Veg Main Course
+      - Butter Chicken (Rs.320.0)
+      - Chicken Biryani (Rs.290.0)
+Menu loaded: 7
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ORDER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Paneer Tikka with Customized item: Grilled cottage cheese cubes with Extra Cheese(Rs.30.0), Eco-box packaging(Rs.10.0) - Rs.260.0
+
+Order created: QB-1784823090439-1
+Check item availabilty..
+Checking delivery zone (radius=20.0km, distance=5.5km)...
+Pre-checking payment method: UPI
+Running Fraud Check.
+Delivery fee: Rs.80.0
+Tax fee: Rs.46.8
+Total amount to be charged: Rs.386.8
+Rs.386.8 paid using UpiId
+UPI payment successful.
+[Customer App] Order QB-1784823090439-1 is now CONFIRMED
+[Restaurant Dashboard App] Order QB-1784823090439-1 is now CONFIRMED
+[Delivery Partner App] Order QB-1784823090439-1 is now CONFIRMED
+[Customer App] Order QB-1784823090439-1 is now PREPARING
+[Restaurant Dashboard App] Order QB-1784823090439-1 is now PREPARING
+[Delivery Partner App] Order QB-1784823090439-1 is now PREPARING
+[Customer App] Order QB-1784823090439-1 is now OUT_FOR_DELIVERY
+[Restaurant Dashboard App] Order QB-1784823090439-1 is now OUT_FOR_DELIVERY
+[Delivery Partner App] Order QB-1784823090439-1 is now OUT_FOR_DELIVERY
+(slow lookup) Searching real-time partner database...
+Assigned delivery partner: Ravi Kumar
+Order already delivered.
+
+--- Order History (QB-1784823090439-1) ---
+2026-07-23T21:41:30.475001900 - Order placed with ID QB-1784823090439-1
+2026-07-23T21:41:30.481498100 - Delivery fee calculated: Rs.80.0
+2026-07-23T21:41:30.491513100 - State changed to CONFIRMED
+2026-07-23T21:41:30.493634500 - State changed to PREPARING
+2026-07-23T21:41:30.496566900 - State changed to OUT_FOR_DELIVERY
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
