@@ -17,6 +17,6 @@ public class PackagingDecorator extends MenuItemDecorator {
 
 	@Override
 	public String getDescription() {
-		return wrappedItem.getDescription() + ", " + packagingDescription + " packaging";
+		return wrappedItem.getDescription() + ", " + packagingDescription + " packaging" + "(Rs." + packagingCost + ")";
 	}
 }

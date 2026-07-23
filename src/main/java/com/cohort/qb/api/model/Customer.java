@@ -1,17 +1,17 @@
 package com.cohort.qb.api.model;
 
 public class Customer {
-	private int cutomerId;
+	private String cutomerId;
 	private String customerName;
 	private String mobileNUmber;
 
-	public Customer(int cutomerId, String customerName, String mobileNUmber) {
+	public Customer(String cutomerId, String customerName, String mobileNUmber) {
 		this.cutomerId = cutomerId;
 		this.customerName = customerName;
 		this.mobileNUmber = mobileNUmber;
 	}
 
-	public int getCutomerId() {
+	public String getCutomerId() {
 		return cutomerId;
 	}
 
@@ -22,5 +22,4 @@ public class Customer {
 	public String getMobileNUmber() {
 		return mobileNUmber;
 	}
-
 }

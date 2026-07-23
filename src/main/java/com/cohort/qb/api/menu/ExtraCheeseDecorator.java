@@ -15,7 +15,7 @@ public class ExtraCheeseDecorator extends MenuItemDecorator {
 
 	@Override
 	public String getDescription() {
-		return wrappedItem.getDescription() + " with Extra Cheese";
+		return wrappedItem.getDescription() + " with Extra Cheese" + "(Rs." + cheesePrice + ")";
 	}
 
 }
